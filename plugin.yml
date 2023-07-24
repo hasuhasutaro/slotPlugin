@@ -1,0 +1,22 @@
+name: Slot
+api: 5.0.0
+main: noahasu\slot\Main
+version: 0.0.1
+author: noahasu
+
+commands:
+  slot:
+    usage: /slot
+    description: スロットを回す
+    permission: Slot.command.slot
+
+  slote:
+    usage: /slote
+    description: スロットをやめる
+    permission: Slot.command.slote
+
+permissions:
+  Slot.command.slot:
+    default: true
+  Slot.command.slote:
+    default: true
